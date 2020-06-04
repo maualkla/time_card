@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/maualkla/Adminde_TimeCard/issues"
   },
-  "homepage": "https://github.com/maualkla/Adminde_TimeCard#readme"
+  "homepage": "https://github.com/maualkla/Adminde_TimeCard#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
