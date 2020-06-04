@@ -1,0 +1,23 @@
+{
+  "name": "time_card",
+  "version": "1.0.0",
+  "description": "Adminde Time Card. (adminde.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maualkla/Adminde_TimeCard.git"
+  },
+  "keywords": [
+    "Adminde;",
+    "TimeCard;"
+  ],
+  "author": "Mauricio Alcala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maualkla/Adminde_TimeCard/issues"
+  },
+  "homepage": "https://github.com/maualkla/Adminde_TimeCard#readme"
+}
