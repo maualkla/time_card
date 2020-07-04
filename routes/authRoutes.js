@@ -41,35 +41,5 @@ module.exports = (app) => {
                 "Company": "Oracle / mudev"
             }
         });
-    });
-
-    // /auth/google route    
-    app.get(
-        '/auth/google', passport.authenticate('google', {
-            scope: ['profile', 'email']
-        })
-    );
-
-    // /auth/google/callback
-    app.get(
-        '/auth/google/callback', 
-        passport.authenticate('google'),
-        (rec, res) => {
-            res.redirect('/surveys');
-        }
-    );
-
-    // User route
-    app.get('/api/current_user', (req, res) => {
-        res.send(req.user);
-        //res.send({"name": "Mauricio E Alcala", "email": "mauricio.alcala.4@gmail.com", "fake": true});
-    });
-
-    // Logout user
-    app.get('/api/logout', (req, res) => {
-        req.logout();
-        res.redirect('/');
-        //res.send(req.user);
-    });
-    
+    });    
 };
