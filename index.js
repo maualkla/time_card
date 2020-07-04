@@ -3,8 +3,8 @@
  * June 3rd, 2020
  */
 
-const empress = require('express'); // Calling Express
-const app = empress(); // Creating express App object.
+const express = require('express'); // Calling Express
+const app = express(); // Creating express App object.
 const keys = require('./config/keys'); // Getting enviroment keys.
 
 app.get('/', (req, res) => {
