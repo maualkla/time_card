@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
     res.send({ hi: 'there'});
 });
 
+require('./routes/authRoutes')(app);
 
 // Validation to make sure production enviroment can run React side
 if (process.env.NODE_ENV === 'production') {
