@@ -50,6 +50,8 @@
     "a-s-p-top a-s-p-top a-s-p-top a-s-p-top"
     "a-s-p-button a-s-p-button a-s-p-button a-s-p-button"
     "a-s-p-button a-s-p-button a-s-p-button a-s-p-button";
+  background: url(https://media.idownloadblog.com/wp-content/uploads/2019/10/Aerial-Space-Screen-Saver-Apple-TV.jpg) no-repeat;
+  -webkit-text-fill-color: transparent;
 }
 
   .a-s-p-top 
@@ -82,7 +84,7 @@
       .asp-center-top { grid-area: asp-center-top; }
 
       .asp-center-button { grid-area: asp-center-button; }
-      
+
     .asp-top-right { grid-area: asp-top-right; }
 
 .a-s-p-button { grid-area: a-s-p-button; }
