@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* Adminde styles */
+.adm-style-page-top
+{
+  display: grid;
+  grid-template-columns: 1fr 1.4fr 1.4fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas:
+    "a-s-p-top a-s-p-top a-s-p-top a-s-p-top"
+    "a-s-p-button a-s-p-button a-s-p-button a-s-p-button"
+    "a-s-p-button a-s-p-button a-s-p-button a-s-p-button";
+}
+
+  .a-s-p-top 
+  { 
+    grid-area: a-s-p-top; 
+    display: grid;
+    grid-template-columns: 1fr 1.4fr 1.4fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas:
+      "asp-top-left asp-top-center asp-top-center asp-top-right"
+      "asp-top-left asp-top-center asp-top-center asp-top-right"
+      "asp-top-left asp-top-center asp-top-center asp-top-right";
+  }
+    .asp-top-left { grid-area: asp-top-left; }
+
+    .asp-top-center { grid-area: asp-top-center; }
+      .asp-top-center#asp-center
+      {
+        display: grid;
+        grid-template-columns: 1fr 1.4fr 1.4fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1px 1px;
+        grid-template-areas:
+          "asp-center-top asp-center-top asp-center-top asp-center-top"
+          "asp-center-top asp-center-top asp-center-top asp-center-top"
+          "asp-center-button asp-center-button asp-center-button asp-center-button";
+      }
+      
+      .asp-center-top { grid-area: asp-center-top; }
+
+      .asp-center-button { grid-area: asp-center-button; }
+      
+    .asp-top-right { grid-area: asp-top-right; }
+
+.a-s-p-button { grid-area: a-s-p-button; }
